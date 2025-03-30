@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Pause : MonoBehaviour
 {
-    public Transform pause;
+    [SerializeField] private Transform pause;
     void Start(){
         Cursor.visible = false;
     }
