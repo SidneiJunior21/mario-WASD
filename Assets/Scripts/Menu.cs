@@ -17,4 +17,8 @@ public class MenuManager : MonoBehaviour
     public void Sair(){
         Application.Quit();
     }
+    public void ligaElemento(GameObject elemento)
+    {
+        elemento.SetActive(!elemento.activeSelf);
+    }
 }
